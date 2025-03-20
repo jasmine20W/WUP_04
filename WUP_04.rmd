@@ -49,6 +49,11 @@ We currently have some boxes that won't crossover at all and others do crossover
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(WORDSUM~DEGREE,data=GSScsv)
+```
+
+The Q1 of the graduate school is higher than the Q3 of High School and LT High School. Usually that will result in a statistical difference when we do our statistical test.
 
 ## Inferential Results
 
