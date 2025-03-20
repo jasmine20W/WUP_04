@@ -75,3 +75,5 @@ plot(TukeyHSD(model1, conf.level =0.98), las=2)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+First we created the boxplot where WORDSum was the x-axis and DEGREE was the y-axis. We found out from the boxplot that some of the boxes do crossover while others don't. We also suspected that the boxes are statistically different. Finally, we rejected the null hypothesis because of how low it was.  
